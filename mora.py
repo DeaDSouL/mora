@@ -2,6 +2,15 @@
 # -*- coding: utf-8 -*-
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
+#---------------------------------------
+# 
+# App Name: MoRa, The Movies Rated Tool.
+# Version : 0.1.6
+# Author  : DeaDSouL (Mubarak Alrashidi)
+# License : GNU GPL V3
+# 
+#---------------------------------------
+
 from __future__ import print_function
 import os
 import sys
