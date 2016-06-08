@@ -53,7 +53,6 @@ class MoRa:
     mov_extensions  = ('.webm', '.mkv', '.vob', '.ogv', '.ogg', '.drc', '.gifv', '.mng', '.avi', '.mov', '.qt', '.wmv', '.yuv', '.rm', '.rmvb', '.asf', '.asx', '.mp4', '.m4p', '.m4v', '.mpg', '.mp2', '.mpeg', '.mpe', '.mpv', '.m2v', '.svi', '.3gp', '.3g2', '.mxf', '.roq', '.nsv', '.flv', '.f4v', '.f4p', '.f4a', '.f4b')
     # omdb: http://www.omdbapi.com
     # tmdb: https://www.themoviedb.org/documentation/api
-    # tmdb tut: https://www.johannesbader.ch/2013/11/tutorial-download-posters-with-the-movie-database-api-in-python/
     # rtdb: http://developer.rottentomatoes.com/docs/read/Home
     api_list        = {'omdb':{'url':'http://www.omdbapi.com/?apikey=&t=%s&y=%s&plot=short&r=json', 'response_rated_key':'Rated', 'response_year_key':'Year', 'response_status_key':'Response', 'status_success_value':'True', 'status_fails_value':'False'}}
     # Output things
