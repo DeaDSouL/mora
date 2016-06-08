@@ -214,7 +214,7 @@ class MoRa:
             return False
         for f in os.listdir(path):
             m = {}
-            m['rel_path']   = self.buildPath( (path,f) )
+            m['rel_path']   = os.path.join( path, f )
             m['abs_path']   = os.path.abspath( m['rel_path'] )
             m['basename']   = os.path.basename( f )
             m['title']      = ''
@@ -358,17 +358,6 @@ class MoRa:
             return True
         else:
             self.log('Ignoring duplicated movie: %s' % movie['rel_path'])
-            return False
-
-    # ------------------------------------------------------------------
-
-    def buildPath(self, dirs=None):
-        if type(dirs) == tuple or type(dirs) == list:
-            ret = ''
-            for d in dirs:
-                ret = os.path.join(ret, d)
-            return ret
-        else:
             return False
 
     # ------------------------------------------------------------------
