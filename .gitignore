@@ -1,6 +1,7 @@
 # Backups
 *.bkp
 *.bak
+*.swp
 *~
 
 # Other files and folders
